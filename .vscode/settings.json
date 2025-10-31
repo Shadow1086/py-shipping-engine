@@ -1,0 +1,30 @@
+{
+    // Python 解释器和环境配置
+    "python.defaultInterpreterPath": "/Volumes/study/Development/01_Anaconda3/anaconda3/bin/python3",
+    
+    // 文件编码设置
+    "files.encoding": "utf8",
+    "files.autoGuessEncoding": true,
+    
+    // Python 分析和格式化
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": false,
+    
+    // 终端设置
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    
+    // 文件关联
+    "files.associations": {
+        "*.py": "python"
+    },
+    
+    // Python 路径
+    "python.envFile": "${workspaceFolder}/.env",
+    
+    // 自动保存
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000
+}
+
